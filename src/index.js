@@ -15,15 +15,15 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomePage/>} />
-        <Route path='/main' element={<MainPage/>} />
-        <Route path='/main/AboutRajyaSabha' element={<About/>} />
-        <Route path='/main/AboutChairman' element={<Chairman/>} />
-        <Route path='/main/DeputyChairman' element={<DeputyChairman/>} />
-        <Route path='/main/LeaderOfHouse' element={<LeaderOfHouse/>} />
-        <Route path='/main/LeaderOfOpposition' element={<LeaderOfOpposition/>} />
-        <Route path='/main/CurrentMemberSearch' element={<CurrentMemberSearch/>} />
-        <Route path='/main/FormerMemberSearch' element={<FormerMemberSearch/>} />
+        <Route path='/NIC-Intern-Project' element={<HomePage/>} />
+        <Route path='/NIC-Intern-Project/main' element={<MainPage/>} />
+        <Route path='/NIC-Intern-Project/main/AboutRajyaSabha' element={<About/>} />
+        <Route path='/NIC-Intern-Project/main/AboutChairman' element={<Chairman/>} />
+        <Route path='/NIC-Intern-Project/main/DeputyChairman' element={<DeputyChairman/>} />
+        <Route path='/NIC-Intern-Project/main/LeaderOfHouse' element={<LeaderOfHouse/>} />
+        <Route path='/NIC-Intern-Project/main/LeaderOfOpposition' element={<LeaderOfOpposition/>} />
+        <Route path='/NIC-Intern-Project/main/CurrentMemberSearch' element={<CurrentMemberSearch/>} />
+        <Route path='/NIC-Intern-Project/main/FormerMemberSearch' element={<FormerMemberSearch/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -5,25 +5,25 @@ import { useNavigate } from "react-router-dom";
 const MainPage=()=>{
     const navigate=useNavigate();
     const handleClick=()=>{
-        navigate("/main/AboutRajyaSabha");
+        navigate("/NIC-Intern-Project/main/AboutRajyaSabha");
     };
     const ChairmanClick=()=>{
-        navigate("/main/AboutChairman");
+        navigate("/NIC-Intern-Project/main/AboutChairman");
     };
     const DeputyChairmanClick=()=>{
-        navigate("/main/DeputyChairman");
+        navigate("/NIC-Intern-Project/main/DeputyChairman");
     };
     const LeaderOfHouseClick=()=>{
-        navigate("/main/LeaderOfHouse");
+        navigate("/NIC-Intern-Project/main/LeaderOfHouse");
     };
     const LeaderOfOppositionClick=()=>{
-        navigate("/main/LeaderOfOpposition");
+        navigate("/NIC-Intern-Project/main/LeaderOfOpposition");
     };
     const CurrentMemberSearchClick=()=>{
-        navigate("/main/CurrentMemberSearch");
+        navigate("/NIC-Intern-Project/main/CurrentMemberSearch");
     };
     const FormerMemberSearchClick=()=>{
-        navigate("/main/FormerMemberSearch");
+        navigate("/NIC-Intern-Project/main/FormerMemberSearch");
     };
 
     return (

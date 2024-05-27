@@ -24,7 +24,7 @@ const HomePage=()=>{
 
     const navigate=useNavigate();
     const handleClick=()=>{
-        navigate("/main");
+        navigate("/NIC-Intern-Project/main");
     };
 
     return (
