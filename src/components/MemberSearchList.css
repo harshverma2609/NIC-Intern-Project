@@ -1,0 +1,57 @@
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+#homeButton{
+    width: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.topOfPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-family: "LeagueSpartan-Black";
+}
+#embelem{
+    width: 2.5rem;
+    padding-bottom: 1rem;
+}
+#heading{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #c44747;
+    text-transform: uppercase;
+}
+
+.searchBoxHolder{
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: white;
+    width: 40%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 1.5rem;
+}
+#txtSearch{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: medium;
+}
+#txtSearch:focus{
+    outline: 0;
+}
+.topOfPage > p{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+

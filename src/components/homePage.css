@@ -1,0 +1,66 @@
+
+.click{
+    height: 100vh;
+    width: 100%;
+    cursor: pointer;
+}
+
+.top-left-home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: fit-content;
+}
+.heading-home{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.nationalEmblem-home{
+    width: 8rem;
+}
+#hindiHeading-home{
+    font-size: 3rem;
+    color: #C44747;
+    margin: 0;
+}
+#mainHeading-home{
+    font-size: 4rem;
+    color: #C44747;
+    margin: 0;
+}
+#subHeading-home{
+    font-size: 2rem;
+    margin: 0;
+}
+#line-home{
+    width: 100%;
+    border: 0.1rem solid black;
+}
+
+.bottom-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 1rem;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.bottom-right > h3{
+    font-family: "LeagueSpartan-Black";
+    font-size: 4rem;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 0.25rem;
+}
+
+
+

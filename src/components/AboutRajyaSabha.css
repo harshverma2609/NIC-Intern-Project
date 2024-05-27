@@ -1,0 +1,39 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.goBack{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.homeButton{
+    width: 2rem;
+    padding: 0.5rem;
+}
+
+.aboutHeading{
+    text-align: center;
+    font-size: x-large;
+    color: #C44747;
+    text-transform: uppercase;
+    font-family: serif;
+}
+
+.information{
+    padding: 1.5rem 2.5rem;
+    font-family: serif;
+    text-align: justify;
+}
+.information > h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.information > p, li, table{
+    width: 100%;
+    font-size: 1.5rem;
+}
