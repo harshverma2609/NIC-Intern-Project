@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NIC-Intern-Project/static/css/main.dc763036.css",
+    "main.css": "/NIC-Intern-Project/static/css/main.abe57732.css",
     "main.js": "/NIC-Intern-Project/static/js/main.58ee397b.js",
     "static/media/npb.png": "/NIC-Intern-Project/static/media/npb.76d2d66d3fde62a55a39.png",
     "static/media/Shri_Harivansh.jpg": "/NIC-Intern-Project/static/media/Shri_Harivansh.1307dbc506adf2c20dea.jpg",
@@ -9,11 +9,11 @@
     "static/media/Shri_Jagdeep_Dhankar.jpg": "/NIC-Intern-Project/static/media/Shri_Jagdeep_Dhankar.b6e392660091532b38d8.jpg",
     "static/media/Shri_Mallikarjun_Khagre.jpg": "/NIC-Intern-Project/static/media/Shri_Mallikarjun_Khagre.170bd4134b896f174a59.jpg",
     "index.html": "/NIC-Intern-Project/index.html",
-    "main.dc763036.css.map": "/NIC-Intern-Project/static/css/main.dc763036.css.map",
+    "main.abe57732.css.map": "/NIC-Intern-Project/static/css/main.abe57732.css.map",
     "main.58ee397b.js.map": "/NIC-Intern-Project/static/js/main.58ee397b.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc763036.css",
+    "static/css/main.abe57732.css",
     "static/js/main.58ee397b.js"
   ]
 }
