@@ -62,5 +62,95 @@
     margin: 0.25rem;
 }
 
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .top-left-home {
+        flex-direction: row;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .heading-home {
+        padding: 0.5rem;
+    }
+    .nationalEmblem-home {
+        width: 4rem;
+    }
+    #hindiHeading-home {
+        font-size: 2rem;
+    }
+    #mainHeading-home {
+        font-size: 2.5rem;
+    }
+    #subHeading-home {
+        font-size: 1rem;
+    }
+    .bottom-right {
+        padding: 0.5rem;
+        text-align: center;
+    }
+    .bottom-right > h3 {
+        font-size: 2rem;
+    }
+}
 
+/* Medium devices (portrait tablets, 600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .top-left-home {
+        flex-direction: row;
+        align-items: center;
+        padding: 0.75rem;
+    }
+    .heading-home {
+        padding: 0.75rem;
+    }
+    .nationalEmblem-home {
+        width: 6rem;
+    }
+    #hindiHeading-home {
+        font-size: 2.5rem;
+    }
+    #mainHeading-home {
+        font-size: 3rem;
+    }
+    #subHeading-home {
+        font-size: 1.5rem;
+    }
+    .bottom-right {
+        padding: 0.75rem;
+        text-align: center;
+    }
+    .bottom-right > h3 {
+        font-size: 3rem;
+    }
+}
+
+/* Large devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .top-left-home {
+        flex-direction: row;
+        padding: 1rem;
+    }
+    .heading-home {
+        padding: 1rem;
+    }
+    .nationalEmblem-home {
+        width: 8rem;
+    }
+    #hindiHeading-home {
+        font-size: 3rem;
+    }
+    #mainHeading-home {
+        font-size: 3.5rem;
+    }
+    #subHeading-home {
+        font-size: 1.75rem;
+    }
+    .bottom-right {
+        padding: 1rem;
+        text-align: center;
+    }
+    .bottom-right > h3 {
+        font-size: 3.5rem;
+    }
+}
 

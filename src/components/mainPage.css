@@ -169,3 +169,232 @@ body{
 }
 
 
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .top-left {
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .heading {
+        padding: 0.5rem;
+    }
+    .nationalEmblem {
+        width: 3rem;
+    }
+    #hindiHeading, #mainHeading {
+        font-size: 1.5rem;
+    }
+    #subHeading {
+        font-size: 0.8rem;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .bottom-left, .center, .searchBox {
+        padding: 0.5rem;
+    }
+    #nrsFull {
+        display: none;
+    }
+    .column {
+        align-items: center;
+    }
+    #picture {
+        width: 6rem;
+        height: 6rem;
+    }
+    #name, #designation {
+        padding: 0.5rem 1rem;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        max-width: fit-content;
+    }
+    .left-curve:hover, .right-curve:hover {
+        cursor: pointer;
+    }
+    #left-curve-line, #right-curve-line {
+        border-bottom: 0.2rem solid #C44747;
+        padding-top: 2.5rem;
+        position: relative;
+        bottom: 2rem;
+    }
+    .searchBox > h2 {
+        font-size: 1.2rem;
+    }
+    #search {
+        align-items: center;
+    }
+    #searchInput {
+        width: 80%;
+        height: 1.8rem;
+    }
+    #search > button {
+        width: 2rem;
+        height: 2rem;
+    }
+    #searchIcon {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+/* Medium devices (portrait tablets, 600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .top-left {
+        align-items: center;
+        padding: 0.7rem;
+    }
+    .heading {
+        padding: 0.7rem;
+    }
+    .nationalEmblem {
+        width: 3.5rem;
+    }
+    #hindiHeading, #mainHeading {
+        font-size: 1.75rem;
+    }
+    #subHeading {
+        font-size: 0.9rem;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .bottom-left, .center, .searchBox {
+        padding: 0.7rem;
+    }
+    .bottom-left{
+        display: none;
+    }
+    #nrsFull {
+        width: 18rem;
+    }
+    .column {
+        align-items: center;
+    }
+    #picture {
+        width: 7rem;
+        height: 7rem;
+    }
+    #name, #designation {
+        padding: 0.7rem 1.5rem;
+    }
+    .left-curve, .right-curve {
+        width: max-content;
+    }
+    .left-curve:hover, .right-curve:hover {
+        cursor: pointer;
+    }
+    .left-curve, .right-curve {
+        height: auto;
+    }
+    #left-curve-line, #right-curve-line {
+        border-bottom: 0.25rem solid #C44747;
+        padding-top: 3rem;
+        position: relative;
+        bottom: 2.5rem;
+    }
+    .searchBox > h2 {
+        font-size: 1.4rem;
+    }
+    #search {
+        align-items: center;
+    }
+    #searchInput {
+        width: 85%;
+        height: 2rem;
+    }
+    #search > button {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    #searchIcon {
+        width: 1.1rem;
+        height: 1.1rem;
+    }
+}
+
+/* Large devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
+    .top-left {
+        flex-direction: row;
+        padding: 0.8rem;
+        align-items: center;
+    }
+    .heading {
+        padding: 0.8rem;
+    }
+    .nationalEmblem {
+        width: 4rem;
+    }
+    #hindiHeading, #mainHeading {
+        font-size: 2rem;
+    }
+    #subHeading {
+        font-size: 1rem;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .bottom-left, .center, .searchBox {
+        padding: 0.8rem;
+    }
+    .bottom-left{
+        display: none;
+    }
+    #nrsFull {
+        width: 22rem;
+    }
+    .column {
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+    #picture {
+        width: 8rem;
+        height: 8rem;
+    }
+    #name, #designation {
+        padding: 1rem 2rem;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-curve, .right-curve {
+        width: max-content;
+    }
+    .left-curve:hover, .right-curve:hover {
+        cursor: pointer;
+    }
+    .left-curve, .right-curve {
+        height: auto;
+    }
+    #left-curve-line, #right-curve-line {
+        border-bottom: 0.3rem solid #C44747;
+        padding-top: 3.5rem;
+        position: relative;
+        bottom: 3rem;
+    }
+    .searchBox > h2 {
+        font-size: 1.6rem;
+    }
+    #search {
+        flex-direction: row;
+        justify-content: center;
+    }
+    #searchInput {
+        width: 40%;
+        height: 2.3rem;
+    }
+    #search > button {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #searchIcon {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+}
